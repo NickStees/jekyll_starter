@@ -15,7 +15,7 @@ visitorstext: "Whether you are hosting or attending an event here, you'll enjoy 
       <div class="col-md-10 col-md-offset-2">
         <div class="block">
           <h1 class="animated fadeInUp">{{site.data.business.name}}</h1>
-          <p class="animated fadeInUp">{{ page.subtitle }}</p>
+          <p class="animated fadeInUp">{{ site.data.home.subtitle }}</p>
         </div>
       </div>
     </div>
