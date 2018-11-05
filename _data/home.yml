@@ -1,4 +1,4 @@
-title: This is Our Site
+title: This is a starter Jekyll Site with Netlify
 subtitle: We are the best at what we do
 intro-title: Intro Title
 intro-subtitle: Intro Sub-Title goes here
@@ -7,3 +7,15 @@ intro-body: >-
   deleniti assumenda laudantium quos nulla ipsa officiis hic eos vero odio
   iusto, aliquid distinctio nemo facilis voluptate officia voluptatum?
 intro-img: /uploads/8649856355_627bcdeadf_h.jpg
+feature-title: Feature Title
+feature-subtitle: Feature Subtitle
+feature-body: sdfsdf
+feature-img: /uploads/artboard-1.png
+testimonial-title: Test title
+testimonial-subtitle: Testimonial Subtitle
+hotels: '15'
+resturants: '25'
+museums: '100'
+minutes: '12'
+services-title: Service Title
+services-subtitle: Services Subtitle
