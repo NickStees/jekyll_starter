@@ -1,5 +1,8 @@
 ---
 layout: post
+title: Example Markup
+subtitle: This is a demo of common markup
+author: admin
 ---
 
 # H1
