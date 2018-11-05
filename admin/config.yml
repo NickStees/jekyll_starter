@@ -15,6 +15,22 @@ collections:
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - {label: "Author", name: "author", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Global"
+    name: "global"
+    files:
+      - label: "Business Info"
+        name: "info"
+        file: "_data/business.yaml"
+        fields:
+          - {label: name, name: name, widget: string}
+          - {label: address_full, name: address_full, widget: string}
+          - {label: address_street, name: address_street, widget: string}
+          - {label: address_city, name: address_city, widget: string}
+          - {label: phone_primay, name: phone_primay, widget: string}
+          - {label: phone_secondary, name: phone_secondary, widget: string}
+          - {label: fax, name: fax, widget: string}
+          - {label: email_primary, name: email_primary, widget: string}
+          - {label: google_maps_api_key, name: google_maps_api_key, widget: string}
   - label: "Pages"
     name: "home"
     files:
