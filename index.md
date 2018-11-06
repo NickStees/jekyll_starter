@@ -4,7 +4,7 @@ title: Home
 permalink: /
 custom_head_owl: true
 custom_head_counterup: true
-subtitle: "This is the sites subtitle it should be you main vision statement."
+subtitle: "This is the sites subtitle it should be sum up the whole sites purpose."
 visitorstext: "Whether you are hosting or attending an event here, you'll enjoy discovering the riverfront jewel that is the"
 ---
 
