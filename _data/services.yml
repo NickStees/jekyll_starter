@@ -1,41 +1,41 @@
 services:
-  - icon: fa-cutlery
-    link: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod       tempor incididunt
+    icon: fa-cutlery
     title: Catering
-  - icon: fa-bullhorn
-    link: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod       tempor incididunt
+    icon: fa-bullhorn
     title: Conference Services
-  - icon: fa-plus
-    link: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod       tempor incididunt
+    icon: fa-plus
     title: Room Setup
-  - icon: fa-music
-    link: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod       tempor incididunt
+    icon: fa-music
     title: Audio/Visuals
-  - icon: fa-print
-    link: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod       tempor incididunt
+    icon: fa-print
     title: Printing
-  - icon: fa-wifi
-    link: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod       tempor incididunt
+    icon: fa-wifi
     title: WiFi
-  - icon: fa-map-signs
-    link: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod       tempor incididunt
+    icon: fa-map-signs
     title: Floor Planning
-  - icon: fa-car
-    link: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt
+  - body: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod       tempor incididunt
+    icon: fa-car
     title: Parking
