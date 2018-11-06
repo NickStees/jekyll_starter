@@ -1,18 +1,18 @@
 # About
 
-This Jekyll Demo site is meant to illustrate how a typical site can be created with Jekyll. It features a mix of developer friendly features such as galleries and file lists built from the file system, along with CMS features using Netlify CMS for basic editing that a client can login and update content.
+This Jekyll Demo site is meant to showcase how a typical site can be created with Jekyll. It features a mix of developer friendly features such as galleries built from the file system, along with Client friendly features using Netlify CMS for basic editing that a client can login and update content.
 
 # Features at a Glance
 
-- **Gulp.js** modern build allows for SASS/SCSS and JS processing.
+- **Gulp.js** modern build allows for SASS/SCSS and JS/Babel processing.
 - Fast **live reloading** local development with Browser Sync
-- Homepage that lets developers go wild!
-- Use partials/includes for re-useable content such as calls to action (\_include/call-to-action.html) that is easy to maintain.
-- Dynamic pages from .CSV files that are easy for clients to manage using Excel.
+- Homepage markup freedom that lets developers go wild!
+- Use partials/includes for re-useable content such as headers, footer and calls to action (\_include/call-to-action.html) that is easy to maintain.
+- Dynamic page content from .CSV files that are easy for clients to manage using Excel.
 - Image gallery built from images in the file system. Developers simply add an image to a folder and the gallery is updated.
 - **Netlify CMS integration** allows editing pages as well as creating News.
 - Contact form uses Netlify Forms to receive submissions which can be piped to other services
-- Use Jekyll \_data to output content like variables across multiple pages, making content easy to maintain.
+- Uses Jekyll `\_data` to output content like variables across multiple pages, making content easy to maintain.
 
 # Getting started
 
@@ -20,7 +20,7 @@ This project requires first that [Jekyll be installed](https://jekyllrb.com/docs
 
 After cloning the project
 
-- run `bundle install` to install dependencies
+- run `bundle install` to install gem dependencies
 - run `npm install` to install npm modules
 - run `gulp` to start live development
 
@@ -30,15 +30,15 @@ The theme and JS files are located in the `/assets/_scss` and `/assets/js` folde
 
 ## Netlify CMS Integration
 
-The Netlify CMS edits the YAML files in `_data/*` along with the `_posts` folder for the sites News. By allowing the Netlify CMS to edit mainly the `_data` files, you are free to use advanced markup on the rest of the site pages, and to pull in Netlify CMS content you simply tell Jekyll to output {{ site.data.home.title }} to access the Netlify CMS managed YAMl data.
+The Netlify CMS edits the YAML files in `_data/*` along with the `_posts` folder for the sites News. By allowing the Netlify CMS to edit mainly the `_data` files, you are free to use advanced markup on the rest of the site pages (more than markdown provides), and to pull in Netlify CMS content you simply tell Jekyll to output {{ site.data.home.title }} to access the Netlify CMS managed YAMl data.
 
-Each _.html page will need a corresponding _.yml file that the Netlify CMS will edit. This allows the freedom to use any markup and not being limited to markdown.
+Each _.html page will need a corresponding _.yml file that the Netlify CMS will edit.
 
 You can have Netlify CMS save content as Markdown, and have Jekyll process it into html using the markdownify Liquid filter ex. {{ site.data.home.intro-body | markdownify }}
 
 This site also uses some 'Global' yaml files that can be edited which are like site wide settings that multiple pages use such as a business address or phone number. So only one Global file needs updated, and the rest of the site is updated.
 
-News can be created by the Netlify CMS similar to a blog example, which creates markdown files in the \_posts directory.
+News can be created by the Netlify CMS similar to a blog example, which creates markdown files in the `\_posts` directory.
 
 ## Directories Explained
 
