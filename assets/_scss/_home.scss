@@ -6,7 +6,7 @@
 --*/
 
 #slider {
-  background: url("/img/slider-bg.jpg") no-repeat;
+  background: url("https://picsum.photos/1600/600?random") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -46,7 +46,7 @@
 
 
 #feature {
-  background: url("/img/featue-bg.jpg");
+  background: url("https://picsum.photos/1601/601?random");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -56,16 +56,14 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding: 100px 0;
+  .content{
+    background-color: rgba(white, 0.85);
+    padding: 1em 0.75em;
+  }
   h2 {
     font-size: 28px;
     font-weight: 600;

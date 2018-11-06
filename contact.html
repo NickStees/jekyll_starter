@@ -4,7 +4,7 @@ title: Contact us!
 permalink: /contact/
 headerTitle: Drop Us A Note
 headerSubCopy: Our friendly staff is waiting to help you.
-headerImage: city/7360147154_9832acfc5e_h.jpg
+headerImage: https://picsum.photos/1600/370
 ---
 
 {% include global-header.html %}
@@ -31,28 +31,21 @@ headerImage: city/7360147154_9832acfc5e_h.jpg
               <textarea class="form-control" rows="3"></textarea>
             </div>
             <select class="form-control">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+              <option>General</option>
+              <option>Marketing</option>
+              <option>Billing</option>
+              <option>Service</option>
             </select>
             <div class="radio">
               <label>
                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                Option one is this and that&mdash;be sure to include why it's great
+                Option one
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Option two can be something else and selecting it will deselect option one
-              </label>
-            </div>
-            <div class="radio disabled">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-                Option three is disabled
+                Option two
               </label>
             </div>
             <div class="form-group">
@@ -83,13 +76,16 @@ headerImage: city/7360147154_9832acfc5e_h.jpg
               </li>
             </ul>
 
-            <ul class="social-icons">
-              {% for item in site.data.social_media %}
-              <li>
-                <a href="{{item.link}}" title="{{item.name}}"><i class="fa {{item.icon}}"></i></a>
-              </li>
-              {% endfor %}
-            </ul>
+            <p>
+              <ul class="social-icons">
+                {% for item in site.data.social_media %}
+                <li>
+                  <a href="{{item.link}}" title="{{item.name}}"><i class="fa {{item.icon}}"></i></a>
+                </li>
+                {% endfor %}
+              </ul>
+            </p>
+
           </div>
             <div class="google-map">
               <iframe src="https://www.google.com/maps/embed/v1/place?key={{site.data.business.google_maps_api_key}}&q={{ site.data.business.address_full | url_encode }}" width="555" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>

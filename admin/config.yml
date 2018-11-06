@@ -20,7 +20,7 @@ collections:
     files:
       - label: "Business Info"
         name: "info"
-        file: "_data/business.yaml"
+        file: "_data/business.yml"
         fields:
           - {label: name, name: name, widget: string}
           - {label: address_full, name: address_full, widget: string}
@@ -33,7 +33,7 @@ collections:
           - {label: google_maps_api_key, name: google_maps_api_key, widget: string}
       - label: "Social Media"
         name: "social"
-        file: "_data/social_media.yaml"
+        file: "_data/social_media.yml"
         fields:
           - label: platform
             name: platform
