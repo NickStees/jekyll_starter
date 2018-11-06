@@ -52,7 +52,7 @@ collections:
             fields:
               - {label: title, name: title, widget: string}
               - {label: Icon, name: icon, widget: string}
-              - {label: body, name: link, widget: string}
+              - {label: body, name: body, widget: string}
   - label: "Pages"
     name: "home"
     files:
