@@ -42,6 +42,17 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Icon, name: icon, widget: string}
               - {label: Link, name: link, widget: string}
+      - label: "Services"
+        name: "services"
+        file: "_data/services.yml"
+        fields:
+          - label: services
+            name: services
+            widget: list
+            fields:
+              - {label: title, name: title, widget: string}
+              - {label: Icon, name: icon, widget: string}
+              - {label: body, name: link, widget: string}
   - label: "Pages"
     name: "home"
     files:
@@ -67,6 +78,13 @@ collections:
           - {label: Minutes, name: minutes, widget: number}
           - {label: Services Title, name: services-title, widget: string}
           - {label: Services Subtitle, name: services-subtitle, widget: string}
+          - label: services
+            name: services
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Icon, name: icon, widget: string}
+              - {label: body, name: body, widget: string}
 
       - label: "Contact"
         name: "contact"

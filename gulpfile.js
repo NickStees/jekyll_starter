@@ -16,6 +16,7 @@ var rename      = require("gulp-rename");
 var uglify      = require('gulp-uglify');
 var postcss     = require('gulp-postcss');
 var mqpacker    = require('css-mqpacker');
+var babel       = require("gulp-babel");
 
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
@@ -89,12 +90,14 @@ gulp.task('watch', function () {
 gulp.task('bundle-js', function() {
   return gulp.src([
     'assets/js/vendor/modernizr-custom.js',
-    'assets/js/vendor/bootstrap.min.js',
-    // 'assets/js/vendor/detectmobilebrowser.js',
-    'assets/js/plugins.js',
     'assets/js/main.js',
   ]).pipe(concat('bundle.js'))
     .pipe(gulp.dest('assets/js'))
+    .pipe(
+        babel({
+          presets: ["env"],
+        })
+      )
     .pipe(uglify())
     .pipe(rename({ extname: '.min.js' }))
     .pipe(gulp.dest('assets/js'))

@@ -16,10 +16,9 @@ custom_head_owl: true
           <div class="col-md-12">
             <div class="block">
               <div class="image-gallery">
-                <ul>
                   {% for image in site.static_files %}
-                      {% if image.path contains 'img/city' %}
-                        <li class="mix Branding">
+                      {% if image.path contains 'img/gallery' %}
+                        <div class="image-gallery-item">
                           <a href="{{ site.baseurl }}{{ image.path }}">
                             <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
                             <div class="overly">
@@ -28,10 +27,9 @@ custom_head_owl: true
                               </div>
                             </div>
                           </a>
-                      </li>
+                        </div>
                       {% endif %}
                   {% endfor %}
-                </ul>
               </div>
             </div>
           </div>
@@ -50,7 +48,7 @@ custom_head_owl: true
             {% for image in site.static_files %}
                 {% if image.path contains 'img/clients' %}
                 <div class="clients-logo-img">
-                  <img src="{{ site.baseurl }}{{ image.path }}" alt="Features">
+                  <img src="{{ site.baseurl }}{{ image.path }}">
                 </div>
                 {% endif %}
             {% endfor %}
