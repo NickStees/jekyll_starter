@@ -43,7 +43,7 @@ This is a quick overview of this projects directories, and how they are used.
 - **api** An example of making a static JSON file an API endpoint
 - **assets** SCSS/JS files mainly related to the Theme, processed by Gulp.js
 - **docs** A folder used to build dynamic pages (Documents) based on the files in these folders, easy for a Developer to maintain.
-- **img** Static images as well as the Gallery is dynamicall created from the contents of the `img/gallery` folder
+- **img** Static images as well as the Gallery Page is dynamically created from the contents of the `img/gallery` folder
 - **uploads** The location Netlify CMS editor uploads files.
 - **___.html** The site pages are mainly created from these .html files which pull data from the `_data` directory that can be maintained from the Netlify CMS
 
