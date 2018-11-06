@@ -32,7 +32,7 @@ visitorstext: "Whether you are hosting or attending an event here, you'll enjoy 
             <h2>{{ site.data.home.intro-title }}</h2>
             <p>{{ site.data.home.intro-subtitle }}</p>
           </div>
-          {{ site.data.home.intro-body }}
+          {{ site.data.home.intro-body | markdownify }}
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
