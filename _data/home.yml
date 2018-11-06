@@ -9,8 +9,6 @@ intro-body: >-
 intro-img: /uploads/8649856355_627bcdeadf_h.jpg
 feature-title: Feature Title
 feature-subtitle: Feature Subtitle
-feature-body: sdfsdf
-feature-img: /uploads/artboard-1.png
 testimonial-title: Test title
 testimonial-subtitle: Testimonial Subtitle
 hotels: '15'
@@ -19,3 +17,7 @@ museums: '100'
 minutes: '12'
 services-title: Service Title
 services-subtitle: Services Subtitle
+services:
+  - body: body
+    icon: icon
+    name: name
