@@ -20,6 +20,10 @@
       "path": "/contact/"
     },
     {
+      "text": "Data",
+      "path": "/data/"
+    },
+    {
       "text": "Documents",
       "path": "/docs/"
     }

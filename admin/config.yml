@@ -89,3 +89,13 @@ collections:
         file: "_data/documents.yml"
         fields:
           - {label: intro, name: intro, widget: markdown}
+      - label: "Chart Data"
+        name: "chart"
+        file: "_data/chartdata.yml"
+        fields:
+          - label: Sales
+            name: sales
+            widget: list
+            fields:
+              - {label: Label, name: label, widget: number}
+              - {label: Value, name: value, widget: number}
