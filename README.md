@@ -16,6 +16,8 @@ This Jekyll Demo site is meant to illustrate how a typical site can be created w
 - run `bundle install` to install dependencies
 - run `npm install` to install npm modules
 - run `gulp` to start live development
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NickStees/jekyll_starter)
 
 
 ## SCSS and JS
