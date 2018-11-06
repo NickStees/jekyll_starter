@@ -86,14 +86,8 @@ collections:
               - {label: Icon, name: icon, widget: string}
               - {label: body, name: body, widget: string}
 
-      - label: "Contact"
-        name: "contact"
-        file: "_data/contact.yml"
+      - label: "Documents"
+        name: "documents"
+        file: "_data/documents.yml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: string}
-          - {label: Icon, name: icon, widget: string}
-          # - {label: Intro, name: intro, widget: markdown}
-          # - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-          # - {label: "Subtitle", name: "subtitle", widget: "string"}
-          # - {label: "Visitors Text", name: "visitorstext", widget: "markdown"}
+          - {label: intro, name: intro, widget: markdown}
